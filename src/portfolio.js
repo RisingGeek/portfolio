@@ -6,7 +6,7 @@ const greeting = {
   username: "Portfolio",
   title: "Hi all, I'm Bhavay Puri",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building applications with JavaScript / Reactjs / Nodejs."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/13bMwIgk71uGNhKbWUe6pH_QTThCYxVK1/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
