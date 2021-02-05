@@ -82,6 +82,16 @@ const workExperiences = {
         "Feature development for employee directory - filters, search, pagination"
       ]
     },
+    {
+      role: "Software Developer Intern",
+      company: "Bobble AI",
+      companylogo: require("./assets/images/bobbleLogo.png"),
+      date: "January 2021 – Present",
+      desc: "World’s first Conversation Media Platform, Bobble AI is enriching everyday conversations because there is nothing more authentic and persuasive than what one friend says to another.",
+      descBullets: [
+        "Worked on log ingestion",
+      ]
+    },
   ]
 };
 
