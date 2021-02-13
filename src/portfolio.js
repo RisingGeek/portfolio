@@ -6,7 +6,7 @@ const greeting = {
   /* Summary And Greeting Section */
   username: "Portfolio",
   title: "Hi all, I'm Bhavay Puri",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building applications with JavaScript / Reactjs / Nodejs."),
+  subTitle: emoji("A passionate Software Developer and Freelancer🚀"),
   resumeLink: Resume,
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
