@@ -1,12 +1,13 @@
 ﻿import emoji from "react-easy-emoji";
-import * as Svg from './Svg';
+import * as Svg from "./Svg";
+import Resume from "./assets/Bhavay_Resume.pdf";
 
 const greeting = {
   /* Summary And Greeting Section */
   username: "Portfolio",
   title: "Hi all, I'm Bhavay Puri",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building applications with JavaScript / Reactjs / Nodejs."),
-  resumeLink: "https://drive.google.com/file/d/1isRdkP0pmhHmyrTXVgGPNGFj7ZZRdK4N/view?usp=sharing",
+  resumeLink: Resume,
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -58,6 +59,14 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -71,6 +80,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer Intern",
+      company: "Bobble AI",
+      companylogo: require("./assets/images/bobbleLogo.png"),
+      date: "January 2021 – Present",
+      desc: "World’s first Conversation Media Platform, Bobble AI is enriching everyday conversations because there is nothing more authentic and persuasive than what one friend says to another.",
+      descBullets: [
+        "Worked on log ingestion",
+      ]
+    },
+    {
       role: "Software Engineer Intern",
       company: "Leena AI",
       companylogo: require("./assets/images/leenaLogo.png"),
@@ -80,16 +99,6 @@ const workExperiences = {
         "Development of Flow Dashboard, REST API integration",
         "Development of heatmap(from scratch) for flow dashboard",
         "Feature development for employee directory - filters, search, pagination"
-      ]
-    },
-    {
-      role: "Software Developer Intern",
-      company: "Bobble AI",
-      companylogo: require("./assets/images/bobbleLogo.png"),
-      date: "January 2021 – Present",
-      desc: "World’s first Conversation Media Platform, Bobble AI is enriching everyday conversations because there is nothing more authentic and persuasive than what one friend says to another.",
-      descBullets: [
-        "Worked on log ingestion",
       ]
     },
   ]
