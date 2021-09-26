@@ -1,6 +1,6 @@
 ﻿import emoji from "react-easy-emoji";
-import * as Svg from "./Svg";
 import Resume from "./assets/Bhavay_Resume.pdf";
+import * as Svg from "./Svg";
 
 const greeting = {
   /* Summary And Greeting Section */
@@ -58,14 +58,14 @@ const skillsSection = {
       skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
+    // {
+    //   skillName: "AWS",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "Docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // },
     {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
@@ -80,13 +80,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "PartsAvatar.ca",
+      companylogo: require("./assets/images/partsavatar.png"),
+      date: "June 2021 – Present",
+      desc: "PartsAvatar is a leading online-only retailer of Auto Parts in Canada",
+      descBullets: [
+        "Conducted research on payment integrations and integrated the same on the client-side",
+        "Setup testing environment",
+        "Migrated the code from JavaScript to TypeScript",
+      ]
+    },
+    {
       role: "Software Developer Intern",
       company: "Bobble AI",
       companylogo: require("./assets/images/bobbleLogo.png"),
       date: "January 2021 – Present",
-      desc: "World’s first Conversation Media Platform, Bobble AI is enriching everyday conversations because there is nothing more authentic and persuasive than what one friend says to another.",
+      desc: "World’s first Conversation Media Platform, Bobble AI is enriching everyday conversations because there is nothing more authentic and persuasive than what one friend says to another",
       descBullets: [
-        "Worked on log ingestion",
+        "Log Ingestion API development",
+        "Optimized APIs by reducing latency of log ingestion services",
       ]
     },
     {
@@ -94,11 +107,10 @@ const workExperiences = {
       company: "Leena AI",
       companylogo: require("./assets/images/leenaLogo.png"),
       date: "June 2019 – August 2019",
-      desc: "Leena AI is a Y-Combinator backed startup which provides an AI powered HR assistant to give instant response to employee queries.",
+      desc: "Leena AI is a Y-Combinator backed startup which provides an AI powered HR assistant to give instant response to employee queries",
       descBullets: [
-        "Development of Flow Dashboard, REST API integration",
-        "Development of heatmap(from scratch) for flow dashboard",
-        "Feature development for employee directory - filters, search, pagination"
+        "Development of flow dashboard",
+        "Development of customized  heatmap",
       ]
     },
   ]
@@ -108,7 +120,7 @@ const workExperiences = {
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "RisingGeek", 
+  githubUserName: "RisingGeek",
   showGithubProfile: "true",  // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
   projects: [

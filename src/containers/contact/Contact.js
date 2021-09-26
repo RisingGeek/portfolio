@@ -1,13 +1,12 @@
 import React, { useContext } from "react";
-import "./Contact.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { contactInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
 import StyleContext from "../../contexts/StyleContext";
+import { contactInfo } from "../../portfolio";
+import "./Contact.css";
 
 export default function Contact() {
   const { isDark } = useContext(StyleContext);
-  console.log(contactInfo)
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
