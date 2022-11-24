@@ -138,7 +138,7 @@ const projects = {
   projects: [
     {
       image: require("./assets/images/twitterClone.png"),
-      link: "https://twitter-geek.netlify.app/",
+      link: "https://twitter-musk.vercel.app/",
       name: "Twitter Clone",
       description: "A minimalistic clone of Twitter that allows you to add tweet, follow people, like, retweet, comment, view profile and search users.",
       technologies: "React, Redux, NodeJS, MYSQL"
