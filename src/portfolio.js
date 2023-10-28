@@ -86,9 +86,11 @@ const workExperiences = {
       date: "June 2021 – Present",
       desc: "PartsAvatar is a leading online-only retailer of Auto Parts in Canada",
       descBullets: [
-        "Conducted research on payment integrations and integrated the same on the client-side",
-        "Setup testing environment",
-        "Migrated the code from JavaScript to TypeScript",
+        `Optimized website performance by implementing best practices for web vitals resulting in
+        improvement in page speed insight scores`,
+        "Took ownership of various features and contributed to the core user-facing storefront product",
+        "Developed an in-house chat widget using WebSockets to increase user engagement and improve customer service",
+        "Worked on integrating 3rd-party tools such as Stripe for payments, and Klaviyo for email marketing"
       ]
     },
     {
@@ -98,8 +100,8 @@ const workExperiences = {
       date: "January 2021 – May 2021",
       desc: "World’s first Conversation Media Platform, Bobble AI is enriching everyday conversations because there is nothing more authentic and persuasive than what one friend says to another",
       descBullets: [
-        "Log Ingestion API development",
-        "Optimized APIs by reducing latency of log ingestion services",
+        "Successfully migrated Mint Keyboard APIs from monolithic to microservice architecture",
+        "Reduced latency of log ingestion APIs",
       ]
     },
     {
@@ -109,8 +111,7 @@ const workExperiences = {
       date: "June 2019 – August 2019",
       desc: "Leena AI is a Y-Combinator backed startup which provides an AI powered HR assistant to give instant response to employee queries",
       descBullets: [
-        "Development of flow dashboard",
-        "Development of customized  heatmap",
+        "Developed the flow dashboard and implemented a reusable customized heatmap component to improve data visualization and analysis",
       ]
     },
   ]
