@@ -11,3 +11,20 @@ export const Repo = () => {
         <svg aria-hidden="true" className="repo-svg" height="20" role="img" viewBox="0 0 12 16" width="14"><path fillRule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
     );
 }
+
+export const NextJs = () => {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 128 128"
+            role="img"
+            aria-label="Next.js"
+        >
+            <circle cx="64" cy="64" r="64" fill="black" />
+            <path
+                fill="white"
+                d="M75.5 43.3h-7.8v41.4h7.8V43.3zm-23.8 0h-7.7v41.4h7.7V55.8l20.5 28.9h7.7V43.3h-7.7v28.9L51.7 43.3z"
+            />
+        </svg>
+    )
+}

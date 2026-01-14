@@ -35,7 +35,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -49,6 +49,10 @@ const skillsSection = {
     {
       skillName: "Redux",
       fontAwesomeClassname: Svg.Redux
+    },
+    {
+      skillName: "NextJS",
+      fontAwesomeClassname: Svg.NextJs
     },
     {
       skillName: "NodeJS",
@@ -67,7 +71,7 @@ const skillsSection = {
     //   fontAwesomeClassname: "fab fa-docker"
     // },
     {
-      skillName: "SQL",
+      skillName: "PostgreSQL",
       fontAwesomeClassname: "fas fa-database"
     },
   ],
@@ -123,7 +127,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "RisingGeek",
   showGithubProfile: "true",  // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   projects: [
     { owner: "uber", name: "baseweb" },
     { owner: "vega", name: "editor" },
@@ -138,12 +142,19 @@ const projects = {
   title: "Projects 🧩",
   projects: [
     {
-      image: require("./assets/images/twitterClone.png"),
-      link: "https://twitter-musk.vercel.app/",
-      name: "Twitter Clone",
-      description: "A minimalistic clone of Twitter that allows you to add tweet, follow people, like, retweet, comment, view profile and search users.",
-      technologies: "React, Redux, NodeJS, MYSQL"
+      image: require("./assets/images/livcheers.png"),
+      link: "https://www.livcheers.com/",
+      name: "LivCheers",
+      description: "LivCheers is an alcohol beverage discovery platform that helps users discover and check prices of different kinds of alcohol beverages including wines, beers and spirits in their respective city.",
+      technologies: "TypeScript, React, NextJS, Drizzle, PostgreSQL, Tailwind, Shadcn"
     },
+    // {
+    //   image: require("./assets/images/twitterClone.png"),
+    //   link: "https://twitter-musk.vercel.app/",
+    //   name: "Twitter Clone",
+    //   description: "A minimalistic clone of Twitter that allows you to add tweet, follow people, like, retweet, comment, view profile and search users.",
+    //   technologies: "React, Redux, NodeJS, MYSQL"
+    // },
     {
       image: require("./assets/images/codePair.png"),
       link: "https://codepair.netlify.app/",
@@ -151,20 +162,6 @@ const projects = {
       description: "A platform where users can share an interactive editor and write code together. It has language support for C++, Java and Python. This project is based on the concept of Operational Transformation which forms the basis for a shared editor.",
       technologies: "React, NodeJS, WebRTC, WebSockets"
     },
-    {
-      image: require("./assets/images/webChat.png"),
-      link: "https://burger-128d8.firebaseapp.com/",
-      name: "Web Chat Application",
-      description: "A web chat application that allows chatting and sharing photos.",
-      technologies: "React, Redux, NodeJS, MongoDB, Firebase Storage, SocketIO"
-    },
-    {
-      image: require("./assets/images/spendingTracker.png"),
-      link: "http://awesome-spending-tracker.herokuapp.com/",
-      name: "Spending Tracker",
-      description: "This application manages expenses so that you can keep track of your spending.",
-      technologies: "NodeJS, MongoDB, PassportJS"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
