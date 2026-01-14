@@ -1,6 +1,11 @@
 ﻿import emoji from "react-easy-emoji";
 import Resume from "./assets/Bhavay_Resume.pdf";
 import * as Svg from "./Svg";
+import partsAvatarImage from "./assets/images/partsavatar.png";
+import bobbleLogo from "./assets/images/bobbleLogo.png";
+import leenaLogo from "./assets/images/leenaLogo.png";
+import livCheersImage from "./assets/images/livcheers.png";
+import codePairImage from "./assets/images/codePair.png";
 
 const greeting = {
   /* Summary And Greeting Section */
@@ -86,7 +91,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "PartsAvatar.ca",
-      companylogo: require("./assets/images/partsavatar.png"),
+      companylogo: partsAvatarImage,
       date: "June 2021 – Present",
       desc: "PartsAvatar is a leading online-only retailer of Auto Parts in Canada",
       descBullets: [
@@ -100,7 +105,7 @@ const workExperiences = {
     {
       role: "Software Developer Intern",
       company: "Bobble AI",
-      companylogo: require("./assets/images/bobbleLogo.png"),
+      companylogo: bobbleLogo,
       date: "January 2021 – May 2021",
       desc: "World’s first Conversation Media Platform, Bobble AI is enriching everyday conversations because there is nothing more authentic and persuasive than what one friend says to another",
       descBullets: [
@@ -111,7 +116,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "Leena AI",
-      companylogo: require("./assets/images/leenaLogo.png"),
+      companylogo: leenaLogo,
       date: "June 2019 – August 2019",
       desc: "Leena AI is a Y-Combinator backed startup which provides an AI powered HR assistant to give instant response to employee queries",
       descBullets: [
@@ -124,7 +129,7 @@ const workExperiences = {
 /* Open Source Section to View Github contributions */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubConvertedToken: import.meta.env.VITE_API_GITHUB_TOKEN,
   githubUserName: "RisingGeek",
   showGithubProfile: "true",  // Set true or false to show Contact profile using Github, defaults to true
   display: false, // Set false to hide this section, defaults to true
@@ -142,21 +147,21 @@ const projects = {
   title: "Projects 🧩",
   projects: [
     {
-      image: require("./assets/images/livcheers.png"),
+      image: livCheersImage,
       link: "https://www.livcheers.com/",
       name: "LivCheers",
       description: "LivCheers is an alcohol beverage discovery platform that helps users discover and check prices of different kinds of alcohol beverages including wines, beers and spirits in their respective city.",
       technologies: "TypeScript, React, NextJS, Drizzle, PostgreSQL, Tailwind, Shadcn"
     },
     // {
-    //   image: require("./assets/images/twitterClone.png"),
+    //   image: twitterCloneImage,
     //   link: "https://twitter-musk.vercel.app/",
     //   name: "Twitter Clone",
     //   description: "A minimalistic clone of Twitter that allows you to add tweet, follow people, like, retweet, comment, view profile and search users.",
     //   technologies: "React, Redux, NodeJS, MYSQL"
     // },
     {
-      image: require("./assets/images/codePair.png"),
+      image: codePairImage,
       link: "https://codepair.netlify.app/",
       name: "Code Pair Platform",
       description: "A platform where users can share an interactive editor and write code together. It has language support for C++, Java and Python. This project is based on the concept of Operational Transformation which forms the basis for a shared editor.",
